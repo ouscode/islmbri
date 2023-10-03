@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.one {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('wedding.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+
+.one h1 {
+    position: absolute;
+    right: 0px;
+    left: 110px;
+    top: 12%;
+    font-size: 35px;
+    color: white;
+    font-family: Fuggles, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+
+/*.one h2:before {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: wheat;
+    left: 135px;
+    top: 50%;
+    position: absolute;
+}*/
+
+
+/*.one h2:after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: wheat;
+    right: 130px;
+    top: 50%;
+    position: absolute;
+}*/
+
+.one h2 {
+    position: relative;
+    text-align: center;
+    right: 0px;
+    left: 20px;
+    top: 83%;
+    font-size: 35px;
+    color: white;
+    font-family: Dancing Script, sans-serif;
+    ;
+}
+
+.two {
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), url('4610.jpg');
+    margin-top: 40px;
+    text-align: center;
+    line-height: 38px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: auto;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Jost', sans-serif;
+}
+
+.two span {
+    font-weight: bold;
+    color: #e7c50f;
+    text-decoration: underline
+}
+
+.two p {
+    margin: 10px;
+}
+
+.two .parag {
+    display: inline;
+    margin-top: 10px;
+    background-color: #0e52336b;
+    width: max-content;
+    height: fit-content;
+}
+
+.two .loc {
+    margin-top: 10px;
+    background-color: #e34545;
+    border-radius: 40px;
+    padding: 9px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: wheat;
+}
+
+.three {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.four {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    /* justify-content: space-between; */
+    align-items: center;
+    text-align: center;
+    height: 770px;
+}
+
+.four .fone {
+    line-height: 70px;
+}
+
+.fone p {
+    font-size: 22px;
+}
+
+.ftwo p {
+    font-size: 22px;
+}
+
+.four h1 {
+    font-family: 'Dancing Script' sans-serif;
+    font-size: 60px
+}
+
+.four .ftwo {
+    line-height: 70px;
+}
+
+.five {
+    position: relative;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), url('001.jpg');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Fuggles, sans-serif;
+    text-align: center;
+    color: wheat;
+    font-size: 50px;
+}
+
+.five h1 {
+    position: absolute;
+    right: 0px;
+    left: 25px;
+    top: 30%;
+    padding: 20px;
+    font-size: 105px;
+    text-align: center;
+    letter-spacing: 16px
+}
+
+.five p {
+    position: absolute;
+    top: 20%;
+    right: 0px;
+    left: 5%;
+    font-size: 60px;
+}
